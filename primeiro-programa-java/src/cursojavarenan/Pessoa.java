@@ -2,9 +2,20 @@ package cursojavarenan;
 
 public class Pessoa {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	private String nome;
+	
+	private String sobrenome;
+	
+	public String getNome() {
+		return nome;
 	}
 
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public String getSobrenome(String sobrenome) {
+		return sobrenome;
+	}
+	
 }
